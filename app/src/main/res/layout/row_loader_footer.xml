@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+<ProgressBar
+    android:id="@+id/progressbar"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="wrap_content"
+            android:text="Data could not loaded"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retry"/>
+
+    </LinearLayout>
+</layout>
