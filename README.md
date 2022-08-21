@@ -3,4 +3,10 @@ The repo shows details on how to use paging 3 with retrofit and LiveData/Flow. T
 
 ScreenShots
 
-![img.png](img.png)
+page 1 data
+
+<img alt="img.png" height="400" src="img.png" width="200"/>
+
+Loading more pages data
+
+<img alt="img_1.png" height="400" src="img_1.png" width="200"/>
